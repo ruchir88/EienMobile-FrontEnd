@@ -1,5 +1,4 @@
 // import libraries for making the component
-
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
@@ -12,6 +11,7 @@ const Header = (props) => {
     );
 };
 
+// Define style sheet for the component
 const styles = StyleSheet.create({
     viewStyle : {
         backgroundColor: 'rgba(30,144,255,1.0)',
@@ -34,5 +34,3 @@ const styles = StyleSheet.create({
 
 // Make the component available to other parts of the app
 export default Header;
-
-
